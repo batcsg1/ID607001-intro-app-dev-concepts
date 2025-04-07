@@ -106,7 +106,7 @@ const register = async (req, res) => {
 
 ### Authorisation Middleware
 
-In the `middleware/auth` directory, create a new file called `authorisation.js`. In the `authorisation.js` file, add the following code:
+In the `middleware` directory, create a new file called `authorisation.js`. In the `authorisation.js` file, add the following code:
 
 ```js
 import prisma from "../../prisma/client.js";
@@ -407,4 +407,4 @@ Implement the code examples above.
 
 ## Next Class
 
-Link to the next class: [Week 08](https://github.com/otago-polytechnic-bit-courses/ID607001-intro-app-dev-concepts/blob/s1-25/lecture-notes/week-08-rate-limiting-securing-http-headers.md)
+Link to the next class: [Week 09]()
